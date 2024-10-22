@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^2.0.15",
+    "@aws-sdk/client-s3": "^3.501.0",
+    "axios": "^1.6.7",
+    "mime-types": "^2.1.35",
+    "mongodb": "^4.1.1",
+    "mongoose": "^8.1.1",
+    "multiparty": "^4.2.3",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-sortablejs": "^6.1.4",
+    "react-spinners": "^0.13.8",
+    "react-sweetalert2": "^0.6.0",
+    "sortablejs": "^1.15.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
