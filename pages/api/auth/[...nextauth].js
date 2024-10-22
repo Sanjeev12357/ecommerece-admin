@@ -3,7 +3,7 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter"
 import clientPromise from "@/lib/mongodb"
 import GithubProvider from "next-auth/providers/github"
 
-const adminEmails = ['sanjeevsinghsaini48@gmail.com','adi6tnine@gmail.com']
+const adminEmails = ['sanjeevsinghsaini48@gmail.com','yadavadarsh642@gmail.com','Kushwahanidhi843@gmail.com']
 
 export const authOptions = {
   providers: [
